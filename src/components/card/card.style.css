@@ -1,0 +1,9 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+  .category-image {
+    @apply h-80 w-80 object-cover object-top group-hover:scale-110 duration-200;
+  }
+}
